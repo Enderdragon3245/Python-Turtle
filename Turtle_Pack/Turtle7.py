@@ -2,7 +2,7 @@ import turtle
 import colorsys
 
 t = turtle.Turtle()
-s = turtle.Screen().bgcolor('black')
+s = turtle.Screen().bgcolor('white')
 t.speed(0)
 forw = 1
 n = 70
@@ -13,6 +13,6 @@ while True:
     t.left(1)
     c = colorsys.hsv_to_rgb(h, 1, 0.8)
     h+= 1/n
-    t.color(c)
+    t.color("black")
     forw += 1
 
